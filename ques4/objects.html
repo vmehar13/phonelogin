@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Question 4 Objects</h1>
+        <script>
+            const person = {
+                id: 2,
+                gender: "male"
+            };
+            const student = {
+                name: "ravi",
+                email: "ravi11@yopmail.com"
+            };
+            const {id, gender} = person
+            const {name, email} = student
+
+            const all = {
+                id,
+                gender,
+                name,
+                email
+            }
+            console.log(all)
+        </script>
+    </body>
+</html>
